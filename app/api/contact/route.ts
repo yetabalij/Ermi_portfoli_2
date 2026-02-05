@@ -14,7 +14,7 @@ export async function POST(req: Request) {
             );
         }
 
-        // Configure Nodemailer transporter
+        // Configure Nodemailer transporter for Email
         const transporter = nodemailer.createTransport({
             service: "gmail",
             auth: {
